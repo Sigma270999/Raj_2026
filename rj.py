@@ -31,14 +31,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============== CONFIGURATION ==============
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8243968980:AAH8bIoRNRhaM0LQJ-hnWpC4zFORhmmbZ5s")
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "8302108361"))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8087822550:AAGxOq6-6VO2tS66JuUBNhY7gwOcJIZJriY")
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "8534272430"))
 PRIVATE_GROUP_LINK = os.environ.get("PRIVATE_GROUP_LINK", "https://t.me/+4GmSCBElsUQ0ZDU1")
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "Mmsdailynews8_bot")
 PORT = int(os.environ.get("PORT", 10000))
 
 # Paytm Payment Configuration
-PAYTM_UPI = "paytm.s1ooh26@pty"
+PAYTM_UPI = "BHARATPE09905322322@yesbankltd"
 PAYTM_MERCHANT_ID = "27868525"
 PAYTM_MERCHANT_KEY = "ffd932391c584b0aa62dcf4b65932369"
 PAYMENT_AMOUNT = "51"
@@ -431,14 +431,14 @@ def get_main_keyboard():
 
 def get_demo_keyboard():
     keyboard = [
-        [InlineKeyboardButton("🎥 CHECK YOUR CATAGORY", url="https://t.me/+q-x8AAWkpvtiOTRl")],
+        [InlineKeyboardButton("🎥 CHECK YOUR CATAGORY", url="https://t.me/+fTqQ3DL9tuczMGJl")],
         [InlineKeyboardButton("🏠 Back to Menu", callback_data="back_to_menu")]
     ]
     return InlineKeyboardMarkup(keyboard)
 
 def get_how_to_keyboard():
     keyboard = [
-        [InlineKeyboardButton("🎥 View Sample Content", url="https://t.me/+VaRCBFz9T4g5ZmU9")],
+        [InlineKeyboardButton("🎥 View Sample Content", url="https://t.me/+r6ub_7dGqXMwNWM9")],
         [InlineKeyboardButton("🏠 Back to Menu", callback_data="back_to_menu")]
     ]
     return InlineKeyboardMarkup(keyboard)
@@ -595,3 +595,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+        
