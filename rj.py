@@ -41,7 +41,7 @@ PORT = int(os.environ.get("PORT", 10000))
 PAYTM_UPI = "abhisheknonia241@oksbi"
 PAYTM_MERCHANT_ID = "27868525"
 PAYTM_MERCHANT_KEY = "ffd932391c584b0aa62dcf4b65932369"
-PAYMENT_AMOUNT = "60"
+PAYMENT_AMOUNT = "99"
 
 # API Endpoints
 QR_GENERATE_API = "https://anujbots.xyz/paytm/qr.php"
@@ -64,7 +64,7 @@ START_MESSAGE = """
 
 𝗗#𝗿𝗲𝗰𝘁 𝘃𝗶𝗱𝗲𝗼 𝗡𝗼 𝗟𝗶𝗻𝗸 - 𝗔𝗱𝘀 𝗦𝗵#𝘁 🔥
 
-𝗣𝗿𝗶𝗰𝗲 :- ₹60/-
+𝗣𝗿𝗶𝗰𝗲 :- ₹99/-
 
 𝗩𝗮𝗹𝗶𝗱𝗶𝘁𝘆 :- 𝗹𝗶𝗳𝗲𝘁𝗶𝗺𝗲
 """
@@ -90,7 +90,7 @@ HOW_TO_MESSAGE = """
 Follow these simple steps:
 
 1️⃣ Click on "💎 Get Premium" button
-2️⃣ Pay ₹60/- using UPI QR Code
+2️⃣ Pay ₹99/- using UPI QR Code
 3️⃣ Payment will be auto-verified
 4️⃣ Get instant access to premium group!
 
@@ -385,7 +385,7 @@ LANDING_PAGE = """
         </div>
         
         <div class="content">
-            <div class="price">₹60/-</div>
+            <div class="price">₹99/-</div>
             
             <div class="feature">
                 <div class="feature-icon">🎬</div>
@@ -520,7 +520,7 @@ async def handle_get_premium(query, context: ContextTypes.DEFAULT_TYPE) -> None:
 💰 Amount: ₹{qr_result['amount']}/-
 🆔 Order ID: {order_id}
 
-📱 Scan QR code and pay ₹60/-
+📱 Scan QR code and pay ₹99/-
 ⏰ Payment will be auto-verified
 ✅ You'll get instant access!
 
