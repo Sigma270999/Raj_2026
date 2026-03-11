@@ -38,8 +38,8 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", "Unseen_vidiobot")
 PORT = int(os.environ.get("PORT", 10000))
 
 # Paytm Payment Configuration
-PAYTM_UPI = "abhisheknonia241@oksbi"
-PAYTM_MERCHANT_ID = "27868525"
+PAYTM_UPI = "paytm.s1ooh26@pty"
+PAYTM_MERCHANT_ID = "27868585"
 PAYTM_MERCHANT_KEY = "ffd932391c584b0aa62dcf4b65932369"
 PAYMENT_AMOUNT = "99"
 
