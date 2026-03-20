@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============== CONFIGURATION ==============
-BOT_TOKEN            = os.environ.get("BOT_TOKEN",          "8459223787:AAHTIOa69aGTohrX1NS5UXdGwToBbp1Ly_4")
+BOT_TOKEN            = os.environ.get("BOT_TOKEN",          "8459223787:AAF16GhJFW1ubJ_WPkQWrAU2WEq6xnsitv0")
 ADMIN_ID             = int(os.environ.get("ADMIN_ID",        "8207112743"))
 PRIVATE_GROUP_LINK   = os.environ.get("PRIVATE_GROUP_LINK", "https://t.me/+4GmSCBElsUQ0ZDU1")
 BOT_USERNAME         = os.environ.get("BOT_USERNAME",        "Unseen_vidiobot")
