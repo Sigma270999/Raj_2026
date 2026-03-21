@@ -459,7 +459,7 @@ def get_main_keyboard() -> InlineKeyboardMarkup:
 
 def get_demo_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("🎥 CHECK YOUR CATAGORY",  url="https://t.me/+uJdan9xFRttlMzQ1")],
+        [InlineKeyboardButton("🎥 CHECK YOUR CATAGORY",  url="https://t.me/+Ydq7uwpOR2kzZDhl")],
         [InlineKeyboardButton("🏠 Back to Menu",          callback_data="back_to_menu")]
     ])
 
