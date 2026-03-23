@@ -109,7 +109,7 @@ PAYMENT_CAPTION = """💎 *VIP ACCESS PAYMENT*
 3️⃣ Take a screenshot of the payment success
 4️⃣ Send that screenshot HERE in this chat
 
-✅ UPI ID: `paytm\\.s1ooh26@pty`
+✅ UPI ID: `BHARATPE09905322322@yesbankltd`
 
 ⏳ *Admin will verify & send you the group link within a few minutes\\!*"""
 
@@ -138,7 +138,7 @@ def get_main_keyboard() -> InlineKeyboardMarkup:
 
 def get_demo_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("🎥 CHECK YOUR CATAGORY", url="https://t.me/+uJdan9xFRttlMzQ1")],
+        [InlineKeyboardButton("🎥 CHECK YOUR CATAGORY", url="https://t.me/+PqnECzGLOCE2MjVl")],
         [InlineKeyboardButton("🏠 Back to Menu",         callback_data="back_to_menu")]
     ])
 
