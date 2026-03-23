@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ============== CONFIGURATION ==============
-BOT_TOKEN           = os.environ.get("BOT_TOKEN",          "8459223787:AAHTIOa69aGTohrX1NS5UXdGwToBbp1Ly_4")
+BOT_TOKEN           = os.environ.get("BOT_TOKEN",          "8459223787:AAF16GhJFW1ubJ_WPkQWrAU2WEq6xnsitv0")
 ADMIN_ID            = int(os.environ.get("ADMIN_ID",        "8207112743"))
 BOT_USERNAME        = os.environ.get("BOT_USERNAME",        "Unseen_vidiobot")
 PORT                = int(os.environ.get("PORT",            10000))
